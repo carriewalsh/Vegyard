@@ -1,0 +1,13 @@
+<h3>Add Plant</h3>
+
+<%= form_for @plant do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :days %>
+  <%= f.text_field :days %>
+  <%= f.label :distance %>
+  <%= f.text_field :distance %>
+  <%= f.label :sun %>
+  <%= f.text_field :sun %>
+  <%= f.submit %>
+<% end %>
